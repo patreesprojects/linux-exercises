@@ -1,0 +1,5 @@
+2024-05-01 08:00:00 INFO System started
+2024-05-01 08:01:10 DEBUG Checking dependencies
+2024-05-01 08:02:30 ERROR Could not start service
+2024-05-01 08:03:40 INFO Initialization complete
+2024-05-01 08:04:00 WARNING Low memory
