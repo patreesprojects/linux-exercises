@@ -1,1 +1,0 @@
-W folderze3 znajduje sie plik.txt: folder3
