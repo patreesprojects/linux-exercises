@@ -1,13 +1,13 @@
 #!/bin/bash
-#1 kopiowanie pliku
+#1 copy a file
 cp -a config.cfg configs/
 
-#2 przenoszenie katalogow
-mv backup/ archiwum/
+#2 move a directory
+mv backup/ archive/
 
-#3 usuwanie plikow po potwierdzeniu
+#3 delete files with confirmation
 rm -i /tmp/test/*.tmp
 
-#4 kopiowanie katalogu
-cp -r documents/ dokumenty_backup/
+#4 copy a directory
+cp -r documents/ documents_backup/
 

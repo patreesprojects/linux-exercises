@@ -1,17 +1,17 @@
 #!/bin/bash
 
-#tworzenie plikow tekstowych w petli
-#touch plik1.txt plik2.txt plik3.txt
+# create text files in a loop
+#touch file1.txt file2.txt file3.txt
 
-#przykład stworzenia plikow petla
+# example of creating files with a loop
 for i in {1..5}
-do 
-	touch plik$i.txt
+do
+    touch file$i.txt
 done
 
-#petla do wypisania wszystkich plikow w danej lokacji w petli
-for plik in *.txt
+# loop to print all text files in the current directory
+for file in *.txt
 do
-	echo "Plik tekstowy: $plik"
+    echo "Text file: $file"
 done
 

@@ -1,10 +1,10 @@
 #!/bin/bash
-# Kopiowanie pliku do katalogu backup/
-cp -a plik1.txt backup/
-#przenoszenie katalogow do archiwum
-mv projekt/ archiwum/
-#komenda usuwania plikow .log
+# Copy file to the backup directory
+cp -a file1.txt backup/
+# Move the project directory to the archive
+mv project/ archive/
+# Remove .log files with confirmation
 rm -i /var/log/test/*.log
-#komenda kopiowania katalogu rekurencyjnie
-cp -r data/ kopia/
+# Copy a directory recursively
+cp -r data/ copy/
 

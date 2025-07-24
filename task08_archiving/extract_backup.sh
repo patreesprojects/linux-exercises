@@ -9,13 +9,13 @@ if [ -z "$file_name" ] || [ -z "$file_path" ]; then
 
 else
   if [ ! -f "$full_path" ]; then
-    echo "File does not exists"
+    echo "File does not exist"
     exit 1
 
   else
     if [ -d "./restored" ]; then
       tar -xzf "$full_path" -C ./restored
-      echo "File has been succesffully restored"
+      echo "File has been successfully restored"
     
     else
       mkdir -p ./restored

@@ -1,11 +1,11 @@
 #!/bin/bash
 
-for plik in *.txt
+for file in *.txt
 do
-  if [[ "$plik" == *1* ]]; then
-    echo "Plik zawiera cyfre 1: $plik"
+  if [[ "$file" == *1* ]]; then
+    echo "File contains the digit 1: $file"
   else
-    echo "Plik NIE zawiera cyfre 1: $plik"
+    echo "File does NOT contain the digit 1: $file"
   fi
 done
 

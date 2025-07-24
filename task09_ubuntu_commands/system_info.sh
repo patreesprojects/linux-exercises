@@ -9,4 +9,4 @@ echo ""
 whoami
 echo ""
 date
-echo""
+echo ""

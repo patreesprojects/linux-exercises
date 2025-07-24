@@ -1,11 +1,11 @@
 #!/bin/bash
 
-suma=0
+sum=0
 
 for i in {1..10}
 do
-	echo "dodaje $i"
-	suma=$((suma +i))
+    echo "adding $i"
+    sum=$((sum + i))
 done
 
-echo "Suma liczb od 1 do 10 wynosi: $suma"
+echo "The sum of numbers from 1 to 10 is: $sum"

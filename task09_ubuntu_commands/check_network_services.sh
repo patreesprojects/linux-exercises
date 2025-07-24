@@ -2,7 +2,7 @@
 services=("ssh" "networking" "ufw")
 active=""
 inactive=""
-for service in $services; do
+for service in "${services[@]}"; do
 
   if systemctl is-active --quiet  "$service"; then
     active+="$service "

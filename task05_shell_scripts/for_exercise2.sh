@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for Kolor in czerwony zielony niebieski zolty
+for color in red green blue yellow
 do
-	echo "Kolor: $Kolor"
+    echo "Color: $color"
 done

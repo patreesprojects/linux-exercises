@@ -1,1 +1,1 @@
-tutaj bede wrzucal sobie pliki cwiczeniowe kurde bele
+This repository contains various Linux practice scripts and exercises.

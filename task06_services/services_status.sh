@@ -2,7 +2,7 @@
 
 systemctl status sshd
 
-sudo systectl start sshd
+sudo systemctl start sshd
 
 sudo systemctl stop sshd
 

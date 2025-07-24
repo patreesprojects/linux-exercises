@@ -1,19 +1,13 @@
 #!/bin/bash
 
-#Napisz skrypt read_sum.sh, który:
-#Poprosi użytkownika o dwie liczby (przy użyciu read)
-#Doda je do siebie
-#Wyświetli wynik w stylu:
-#Podaj pierwszą liczbę: 5
-#Podaj drugą liczbę: 7
-#Wynik: 5 + 7 = 12
+# Simple script that asks for two numbers and prints their sum
 
-echo "Podaj pierwsza liczbe: "
-read liczba1
+echo "Enter first number:"
+read number1
 
-echo "Podaj druga liczbe: "
-read liczba2
+echo "Enter second number:"
+read number2
 
-suma=$((liczba1 + liczba2))
+sum=$((number1 + number2))
 
-echo "Wynik: $liczba1 + $liczba2 = $suma"
+echo "Result: $number1 + $number2 = $sum"

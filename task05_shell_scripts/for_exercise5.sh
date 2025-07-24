@@ -1,14 +1,14 @@
 #!/bin/bash
-#usuwanie folderow, jesli zostaly wczesniej utworzone
+#remove directories if they already exist
 for i in {1..5}
 do
-	rm -rf folder$i
+    rm -rf dir$i
 done
 
-#tworzenie folderow i plikow
+#create directories and files
 for i in {1..5}
-	do
-	mkdir folder$i
-	echo "utworzono folder$i wraz z plikiem w srodku"
-	echo "W folderze$i znajduje sie plik.txt: folder$i" > folder$i/plik.txt
+do
+    mkdir dir$i
+    echo "created dir$i with a file inside"
+    echo "In dir$i there is file.txt: dir$i" > dir$i/file.txt
 done

@@ -16,7 +16,7 @@ if [ -d "$folder_name" ]; then
 	 mkdir -p "$backup_folder"
 	 echo "backup folder was created at location: $backup_folder"
  	else
-	 echo " backup folder exists, transfering in progress..."
+         echo " backup folder exists, transferring in progress..."
 	fi 
  
  date_stamp=$(date +%Y-%m-%d)

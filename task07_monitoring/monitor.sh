@@ -1,38 +1,38 @@
 #!/bin/bash
 
-# monitor.sh – prosty skrypt do sprawdzania stanu systemu
+# Simple system status monitoring script
 
 echo "======================"
 echo "     SYSTEM MONITOR"
 echo "======================"
 echo ""
 
-# CPU usage – pokazuje procentowe użycie procesora
+# CPU usage – show processor utilization percentage
 echo ">>> CPU USAGE:"
 top -b -n1 | grep "Cpu(s)"
 echo ""
 
-# Memory usage – pokazuje ile RAMu jest używane i ile jest wolne
+# Memory usage – show used and free RAM
 echo ">>> MEMORY USAGE:"
 free -h
 echo ""
 
-# Disk usage – pokazuje zajętość dysków (partycji)
+# Disk usage – show disk utilization
 echo ">>> DISK USAGE:"
 df -h
 echo ""
 
-# Running processes – pokazuje ile procesów aktualnie działa
+# Running processes – show number of active processes
 echo ">>> NUMBER OF RUNNING PROCESSES:"
 ps aux | wc -l
 echo ""
 
-# Current date and time – aktualna data i czas systemowy
+# Current date and time
 echo ">>> DATE & TIME:"
 date
 echo ""
 
-# Optional: Uptime – jak długo system działa bez restartu
+# Optional: Uptime – how long the system has been running
 echo ">>> SYSTEM UPTIME:"
 uptime
 echo ""
